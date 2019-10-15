@@ -19,6 +19,7 @@ Descrição do projeto
 -> SERVIDOR:
 
   5 - Imprime o texto de acordo com as configurações enviadas pelo cliente
+  
   6 - Informa o término da impressão e envia a 1º mensagem ao cliente
   
  -> CLIENTE: 
