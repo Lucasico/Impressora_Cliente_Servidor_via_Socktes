@@ -40,6 +40,7 @@ public class Servidor {
         ObjectOutputStream saida = new ObjectOutputStream(soquete.getOutputStream());
         ObjectInputStream entrada = new ObjectInputStream(soquete.getInputStream());
         do {
+            //criando construtor da classe impressora
             Impressao impressora = new Impressao();
 
             saida.writeObject(impressora);

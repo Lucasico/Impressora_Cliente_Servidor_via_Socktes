@@ -37,7 +37,7 @@ public class Cliente {
         ObjectInputStream entrada = new ObjectInputStream(soquete.getInputStream());
 
         do {
-            Impressao im = new Impressao();
+            //chegada da impressora no cliente
             Impressao mensagem = (Impressao) entrada.readObject();
             System.out.println("");
             System.out.println("- - Escolher parametros para impressão - -");
